@@ -19,6 +19,7 @@
     background-color: rgba(153, 150, 150, 0.158);
     color: rgb(2, 2, 46, 255);
 }
+
 .fs-0-7rem{
     font-size: 0.7rem;
 }
@@ -52,6 +53,7 @@
 .fw-500{
     font-weight: 500;
 }
+
 
 
 /* Banner section starts here  */
@@ -102,7 +104,7 @@ h1 span{
     position:absolute ;
     left: 50%; 
     transform: translateX(-50%);
-    bottom:8%;
+    bottom:20px;
 }
 .hello-page{
     padding: 40px 0;
@@ -422,23 +424,26 @@ height: calc(50% - 15px);
 
 .search-input {
 
-    float: left;
+    /* float: left; */
     padding: 7px 0;
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
     font-weight: bold;
     padding-left: 20px;
     border: 1px solid white;
-
+    display: inline-block;
+     
 }
 .search-btn {
     padding: 6px;
-    padding-right: 20px;
+    padding-right: 15px;
     height: 40px;
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
     background-color: #d2ab07;
-    float: right;
+    display: inline-block;
+    
+    /* float: right; */
     
 
 }
@@ -455,3 +460,27 @@ height: calc(50% - 15px);
    }
 
   /* footer ends here  */
+  @media screen and (max-width:576px) {
+  
+   
+    .card-footer{
+        
+       text-align: center;
+       
+    }
+    .email{
+        justify-content: center;
+    }
+    .banner{
+        height: 800px;
+    }
+    .services-heading{
+        width: 100%;
+        font-size:1rem;
+       
+    }
+    .testimonial-wrapper .heading{
+        display: block;
+    }
+
+}
