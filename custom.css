@@ -169,7 +169,7 @@ span{
     height:60%;
     display: inline-block;
     margin-top: 15px;
-    background-image: url('/icons/i-sketch_w.svg');
+    background-image: url('./icons/i-sketch_w.svg');
     background-size: contain;
     background-position: center;
 }
@@ -179,7 +179,7 @@ span{
     height:60%;
     display: inline-block;
     margin-top: 15px;
-    background-image: url('/icons/i-feature_w.svg');
+    background-image: url('./icons/i-feature_w.svg');
     background-size: contain;
     background-position: center;
 }
