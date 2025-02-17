@@ -146,42 +146,35 @@ span{
 }
 
 .card-icon {
-    background-color: rgba(255, 255, 255, 0.1); 
+    background-color: rgba(255, 255, 255, 0.1);
     width: 90px;
     height: 90px;
 
 }
 
-
-.card-icon-1::after{
-    content: "";
-    width:60%;
-    height:60%;
-    display: inline-block;
-    margin-top: 15px;
+.card-icon-1::after {
     background-image: url('./icons/i-message_w.svg');
-    background-size: contain;
-    background-position: center;
+
 }
-.card-icon-2::after{
+
+.card-icon-2::after {
+    background-image: url('/icons/i-sketch_w.svg');
+}
+
+.card-icon-3::after {
+    background-image: url('/icons/i-feature_w.svg');
+
+}
+
+.card-icon::after {
     content: "";
-    width:60%;
-    height:60%;
+    width: 60%;
+    height: 60%;
     display: inline-block;
     margin-top: 15px;
-    background-image: url('./icons/i-sketch_w.svg');
     background-size: contain;
     background-position: center;
-}
-.card-icon-3::after{
-    content: "";
-    width:60%;
-    height:60%;
-    display: inline-block;
-    margin-top: 15px;
-    background-image: url('./icons/i-feature_w.svg');
-    background-size: contain;
-    background-position: center;
+
 }
 
 .letter-spacing{
@@ -205,7 +198,6 @@ span{
 }
 .insightsDetails:hover {
     color: #d2ab07;
-     cursor: pointer;
 }
 /*Insights section ends here */
 
