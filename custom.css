@@ -158,11 +158,11 @@ span{
 }
 
 .card-icon-2::after {
-    background-image: url('/icons/i-sketch_w.svg');
+    background-image: url('./icons/i-sketch_w.svg');
 }
 
 .card-icon-3::after {
-    background-image: url('/icons/i-feature_w.svg');
+    background-image: url('./icons/i-feature_w.svg');
 
 }
 
